@@ -14,7 +14,7 @@
 **What we build**
 
 - **`.glx`** — a single-file geocoding index. Search, autocomplete, reverse geocoding and place outlines, answered with HTTP range reads from a Worker, a browser tab or a laptop. Try it: [glx.geolith.app](https://glx.geolith.app)
-- **search** — a Pelias-compatible geocoding API served from one `.glx` file. [Docs and benchmarks](https://docs.search.geolith.app)
+- **search** — a geocoding API (search, autocomplete, reverse, place lookup) served from one `.glx` file. [Docs and benchmarks](https://docs.search.geolith.app)
 - **geolith** — the build engine: OpenStreetMap + Overture → vector tiles (PMTiles / MLT), routing files and `.glx` indexes. [geolith.app](https://geolith.app)
 
 **Benchmarks** are measured on the same data and the same machine as Nominatim, Photon and Pelias, all in Docker, with the harness published: [docs.search.geolith.app/benchmarks/engines](https://docs.search.geolith.app/benchmarks/engines/).
